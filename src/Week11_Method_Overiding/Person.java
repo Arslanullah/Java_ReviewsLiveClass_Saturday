@@ -46,7 +46,18 @@ public class Person {
         return
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", gender=" + gender ;
+                ", gender=" + gender +'\'' ;
+
+    }
+    public  void eat(){
+        System.out.println( name +"is eating");
+    }
+    public void sleep(){
+        System.out.println(name +  "is sleeping");
+
+    }
+    public  void drinking(){
+        System.out.println(name + " drinking water");
 
     }
 }
